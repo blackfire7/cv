@@ -1,5 +1,4 @@
 body {
-  width: 100%;
   margin: 0;
   overflow-x: hidden;
   padding: 0;
@@ -18,7 +17,7 @@ a {
 
 #top-container {
   height: 700px;
-  width: 100%;
+  width: 101.5%;
 }
 
 .marg {
@@ -53,7 +52,6 @@ a {
 }
 
 .top-right {
-  width: 50%;
   padding: 0;
   margin: 0px;
   height: 700px;
@@ -65,7 +63,6 @@ a {
 }
 
 .top-left {
-  width: 50%;
   padding: 0;
   margin: 0;
   height: 700px;
@@ -128,7 +125,7 @@ a {
 /* DESCRIPTION */
 
 #middle-container {
-  width: 101.5%;
+  width: 100%;
   background-color: #c2c2c2;
 }
 
