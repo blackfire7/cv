@@ -1,23 +1,187 @@
-/**********************TAG SELECTORS**********************/
-
-
 body {
-  background-color: #eaf6f6;
+  width: 100%;
+  margin: 0;
+  overflow-x: hidden;
+  padding: 0;
+  text-align: center;
 }
 
-hr {
-border-color: grey;
-border-style: dotted none none;
-border-width: 8px;
-width: 5%;
+ul {
+  list-style: none;
 }
 
-h1 {
-  color: #66bfbf;
+a {
+  color: #222831 !important;
+  text-decoration: none;
 }
 
-h3 {
-  color: #66bfbf;
+
+#top-container {
+  height: 700px;
+  width: 100%;
 }
 
-/**********************CLASS SELECTORS**********************/
+.marg {
+  /* margin: 0; */
+}
+
+.navbar-brand img {
+  width: 80px;
+  height: 80px;
+}
+
+.nv-brand {
+  padding: 0 !important;
+  width: 0px;
+  margin-left: 10%;
+}
+
+/* TOP RIGHT NAVIGATION */
+
+.navbar {
+  padding: 8px 0;;
+}
+
+.nav-bar {
+  margin: 0;
+}
+
+.nav-link {
+  font-family: "Montserrat", sans-serif;
+  padding-right: 20px !important;
+  color: #222831 !important;
+}
+
+.top-right {
+  width: 50%;
+  padding: 0;
+  margin: 0px;
+  height: 700px;
+  background-color: #00adb5;
+}
+
+.nv-ul, .button {
+  margin: 18px 10% 3% 0;
+}
+
+.top-left {
+  width: 50%;
+  padding: 0;
+  margin: 0;
+  height: 700px;
+  background-color: #222831;
+}
+
+.hello {
+  position: relative;
+  bottom: 520px;
+  padding-left: 80px;;
+}
+
+.hello h2 {
+  display: inline;
+  font-family: "Ubuntu", sans-serif;
+  word-wrap: normal;
+  font-size: 180px;
+  font-weight: 400;
+}
+
+.he {
+  color: #00ADB5;
+}
+
+.llo {
+  color: #222831;
+}
+
+.name {
+  text-align: right !important;
+  position: relative;
+  top: 290px;
+  right: 5px;
+}
+
+.name h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  letter-spacing: 8px;
+  color: #00ADB5;
+}
+
+.webdev {
+  text-align: right !important;
+  position: relative;
+  top: 275px;
+  right: 5px;
+}
+
+.webdev h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 8px;
+  color: #393E46;
+}
+
+/* MIDDLE CONTAINER */
+/* DESCRIPTION */
+
+#middle-container {
+  width: 101.5%;
+  background-color: #c2c2c2;
+}
+
+.desc {
+  padding: 20px 10px;
+}
+
+.desc-1 {
+
+}
+
+.desc-1 h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #293E46;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+.desc-2 {
+
+
+}
+
+.desc-2 h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #293E46;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+.desc-3 {
+
+
+}
+
+.desc-3 h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #293E46;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  padding: 10px;
+}
