@@ -33,7 +33,7 @@ hr {
 
 .header {
   background-color: #222831;
-  border-width: 2rem 2rem 0 2rem;
+  border-width: 1rem 1rem 0 1rem;
   border-style: solid;
   border-color: #eee;
   border-radius: 50px 50px 0 0;
@@ -94,7 +94,7 @@ hr {
 .middle-container-skills {
   background-color: #222831;
   margin: 0 auto 0;
-  border-width: 0 2rem 0 2rem;
+  border-width: 0 1rem 0 1rem;
   border-style: solid;
   border-color: #eee;
   margin: 0 3px 0 3px;
@@ -149,7 +149,7 @@ hr {
   background-color: #222831;
   margin: 0px auto;
   padding-top: 100px;
-  border: 2rem solid #eee;
+  border: 1rem solid #eee;
   border-radius: 0 0 50px 50px;
   border-top: none;
   margin: 0 3px 3px 3px;
@@ -272,6 +272,9 @@ hr {
   .profile h2 {
     font-size: 5rem;
   }
+  
+  .profile p {
+    width: 90%;
 
   .skills {
     display: flex;
