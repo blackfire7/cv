@@ -33,7 +33,7 @@ hr {
 
 .header {
   background-color: #222831;
-  border-width: 1rem 1rem 0 1rem;
+  border-width: 2rem 2rem 0 2rem;
   border-style: solid;
   border-color: #eee;
   border-radius: 50px 50px 0 0;
@@ -55,12 +55,11 @@ hr {
 
 .profile h2 {
   margin: 80px auto 30px auto;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Sacramento", sans-serif;
   font-size: 8rem;
-  font-weight: 900;
+  font-weight: bold;
   color: #d65a31;
   letter-spacing: 4px;
-  text-transform: uppercase;
 }
 
 .name {
@@ -94,7 +93,7 @@ hr {
 .middle-container-skills {
   background-color: #222831;
   margin: 0 auto 0;
-  border-width: 0 1rem 0 1rem;
+  border-width: 0 2rem 0 2rem;
   border-style: solid;
   border-color: #eee;
   margin: 0 3px 0 3px;
@@ -149,7 +148,7 @@ hr {
   background-color: #222831;
   margin: 0px auto;
   padding-top: 100px;
-  border: 1rem solid #eee;
+  border: 2rem solid #eee;
   border-radius: 0 0 50px 50px;
   border-top: none;
   margin: 0 3px 3px 3px;
@@ -250,6 +249,18 @@ hr {
 }
 
 @media (max-width: 500px) {
+  .header {
+    border-width: 1rem 1rem 0 1rem;
+  }
+
+  .middle-container-skills {
+    border-width: 0 1rem 0 1rem;
+  }
+
+  .footer {
+    border-width: 0 1rem 1rem 1rem;
+  }
+
   .brand-img {
     width: 75px;
     height: 75px;
@@ -261,7 +272,6 @@ hr {
   }
 
   .intro {
-    width: 95%;
     font-size: 1rem;
     font-weight: 400;
     color: #eee;
@@ -269,12 +279,13 @@ hr {
     line-height: 2;
   }
 
-  .profile h2 {
-    font-size: 5rem;
-  }
-  
   .profile p {
-    width: 90%;
+      width: 90%;
+  }
+
+  .profile h2 {
+    font-size: 4.5rem;
+  }
 
   .skills {
     display: flex;
