@@ -16,12 +16,6 @@ a {
     margin: 0 !important;
 }
 
-ul {
-  list-style: none;
-  padding: 0;
-  margin-right: 50px;
-}
-
 hr {
   border: 6px dotted #eee;
   border-bottom: none;
@@ -46,11 +40,13 @@ hr {
   font-weight: 600;
   letter-spacing: 4px;
   text-transform: uppercase;
+  list-style: none;
+  margin-right: 20px;
 }
 
 .navigation li {
-  width: 50%;
-  margin: 5px 20px;
+  width: 100%;
+  margin: 5px 20px !important;
 }
 
 .profile h2 {
@@ -59,6 +55,7 @@ hr {
   font-size: 8rem;
   font-weight: bold;
   color: #d65a31;
+  padding: 0 10px;
   letter-spacing: 4px;
 }
 
@@ -119,8 +116,6 @@ hr {
   letter-spacing: 3px;
 }
 
-
-
 .skills {
   display: flex;
   flex-direction: row;
@@ -137,16 +132,11 @@ hr {
   width: 20%;
 }
 
-.meetdog {
-  width: 60%;
-  margin: 0 auto;
-}
-
 /* FOOTER */
 
 .footer {
   background-color: #222831;
-  margin: 0px auto;
+  margin: 0 auto;
   padding-top: 100px;
   border: 2rem solid #eee;
   border-radius: 0 0 50px 50px;
@@ -226,10 +216,6 @@ hr {
 }
 
 .footer-link {
-  font-family: "Montserrat", sans-serif;
-  font-size: 1rem;
-  font-weight: 600;
-  letter-spacing: 3px;
   color: #eee;
   padding: 0 20px;
 }
@@ -240,7 +226,7 @@ hr {
 }
 
 .bottom-container p {
-  margin-top: 10px;
+  margin-top: 30px;
   font-family: "Montserrat", sans-serif;
   font-size: 12px;
   font-weight: 200;
@@ -248,7 +234,7 @@ hr {
   color: #eee;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 560px) {
   .header {
     border-width: 1rem 1rem 0 1rem;
   }
@@ -268,7 +254,7 @@ hr {
   }
 
   .navigation li {
-    width: 100%;
+    font-size: 1rem;
   }
 
   .intro {
@@ -284,7 +270,7 @@ hr {
   }
 
   .profile h2 {
-    font-size: 4.5rem;
+    font-size: 4.5rem !important;
   }
 
   .skills {
@@ -296,26 +282,39 @@ hr {
   }
 
   .contact-me {
-    width: 95%;
+    width: 100% !important;
   }
 
   .contact-me h2 {
+    width: 95%;
+    margin: 0 auto;
     font-size: 2rem;
   }
 
   .contact-me h3 {
+    width: 85%;
+    margin: 0 auto;
     font-size: 1rem;
-    line-height: 1.5;
+    line-height: 2;
     color: #fff;
+    padding-top: 15px;
   }
 
   .contact-me p {
+    width: 85%;
+    margin: 0 auto;
     line-height: 2.5;
+    padding-top: 15px;
   }
-
 }
 
-@media (max-width: 960px) {
+@media (max-width: 675px) {
+  .profile h2 {
+    font-size: 6rem;
+  }
+}
+
+@media (max-width: 990px) {
   .brand-img {
     margin-left: 0px;
   }
@@ -336,7 +335,7 @@ hr {
   }
 
   .contact-me {
-    width: 60%;
+    width: 80%;
   }
 
 }
