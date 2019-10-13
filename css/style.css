@@ -208,6 +208,15 @@ hr {
   padding: 20px 0 0 0;
 }
 
+.contact-me-bottom {
+  color: #eee;
+  text-decoration: none;
+}
+
+.call {
+  margin-left: 40px;
+}
+
 /* BOTTOM CONTAINER */
 
 .bottom-container {
@@ -305,6 +314,18 @@ hr {
     margin: 0 auto;
     line-height: 2.5;
     padding-top: 15px;
+  }
+
+  .btn {
+    display: block;
+  }
+
+  .message {
+    margin-bottom: 20px;
+  }
+
+  .call {
+    margin: 0 auto;
   }
 }
 
